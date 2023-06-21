@@ -2,3 +2,5 @@ downloads/
 downloads_old/
 *.json
 .env
+manda_emails/emails/
+node_modules/
