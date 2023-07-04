@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      <!-- @import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic); -->
+      body {
+        margin: 0 auto;
+      }
+      main {
+        max-width: 800px;
+        max-height: 100rem;
+        /*max-height: 697rem;*/
+        overflow: hidden;
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+      }
+      #corpo {
+        /*margin-top: 10rem;*/
+        /*margin-top: 20rem;*/
+        margin: 0 auto;
+        max-width: 600px;
+        /* margin-top: -450px; */
+        text-align: center;
+        color: #707070;
+      }
+      span.entrevista {
+        color: #037EF3;
+        font-weight: 700;
+      }
+      .card {
+        display: flex;
+        /*flex-direction: row;*/
+        gap: 0.5rem;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+      }
+      .image {
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .info {
+        /*display: flex;
+        flex-direction: column;*/
+        gap: 5px;
+        font-size: 10px;
+        margin-left: 10px;
+        padding-top: 8px;
+      }
+      #cards {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: fit-content;
+      }
+      #botaoAgendar {
+        padding: 9px 30px;
+        background: #037EF3;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      #formaTopo, #formaFooter {
+        margin: 0 auto;
+        width: fit-content;
+      }
+      #footer {
+        margin: 0 auto;
+        width: fit-content;
+      }
+      #formaTopo img {
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="formaTopo">
+        <!-- https://i.ibb.co/6JSfSZT/capa.png -->
+        <img
+          src="https://i.ibb.co/T4Ff0rN/lideran-a.png"
+          alt=""
+          srcset=""
+          style="height: 300px; object-fit: cover; object-position: top"
+        />
+      </div>
+      <div id="corpo">
+        <p style="font-size: 1.3rem">
+          Olá candidate! Parabéns por dar o primeiro passo para se tornar parte
+          do maior movimento jovem de trocas culturais e desenvolvimento de
+          lideranças do mundo!
+        </p>
+        <p style="font-size: 1.3rem">
+          A sua jornada de desenvolvimento para ativar liderança, agir
+          sustentavelmente, buscar por excelência, viver diversidade, aproveitar
+          a participação e demonstrar integridade está só começando.
+        </p>
+        <p style="font-size: 1.3rem">
+          As etapas do processo seletivo serão: <br />
+          <span class="entrevista">Fase 1 - Entrevista</span> <br />
+          Fase 2 - Dinâmica em grupo <br />
+          Fase 3 - Fit Cultural <br />
+          Fase Final - Onboading 🥳 <br />
+        </p>
+        <p style="font-size: 1.3rem">
+          A sua próxima fase será:
+          <span class="entrevista">Fase 1 - Entrevista</span>
+        </p>
+        <p style="font-size: 1.3rem">
+          Quaisquer dúvidas sobre o processo, não hesite em falar com a gente
+        </p>
+      </div>
+      <div id="cards">
+        <div class="card">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/xLysCSk/OUTLOOK-7-Bbb9q-WZR6.png"
+              alt=""
+              width="50px"
+              height="50px"
+            />
+          </div>
+          <div class="info">
+            <span>Bea Monteiro</span> <br />
+            <span>Diretora de Gestão de Pessoas</span> <br />
+            <a href="https://wa.me/5511971294805">+55 11 97129-4805</a> <br />
+            <a href="beatriz.monteiro@aiesec.org.br"
+              >beatriz.monteiro@aiesec.org.br</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/q7PqtGP/OUTLOOK-y-Hg461k-X1-A.png"
+              alt=""
+              width="50px"
+              height="50px"
+            />
+          </div>
+          <div class="info">
+            <span>Karine Hilário</span> <br />
+            <span>Diretora de Gestão de Pessoas</span> <br />
+            <a href="https://wa.me/5511996473706">+55 11 99647-3706</a> <br />
+            <a href="karine.hilario@aiesec.org.br"
+              >karine.hilario@aiesec.org.br</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- <div id="footer">
+        <img
+          src="https://i.ibb.co/PGWXL0M/brave-MPvro-UWP5r.png"
+          alt=""
+          srcset=""
+        />
+      </div> -->
+      <div id="formaFooter">
+        <!-- src="https://i.ibb.co/cCjpkxs/Application-Frame-Host-Wskw-HNB37m.png" -->
+        <img
+          src="https://i.ibb.co/bbkHd3f/footer.png"
+          alt=""
+          srcset=""
+          width="800px"
+          height="800px"
+        />
+      </div>
+    </main>
+  </body>
+</html>

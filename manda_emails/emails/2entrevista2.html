@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      <!-- @import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic); -->
+      body {
+        margin: 0 auto;
+      }
+      main {
+        max-width: 800px;
+        /*max-height: 100rem;*/
+        height: fit-content;
+        /*max-height: 697rem;*/
+        overflow: hidden;
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+      }
+      #corpo {
+        /*margin-top: 10rem;*/
+        /*margin-top: 20rem;*/
+        margin: 0 auto;
+
+        max-width: 600px;
+        text-align: center;
+        color: #707070;
+      }
+      span {
+        color: #037EF3;
+        font-weight: 700;
+      }
+      .card {
+        display: flex;
+        /*flex-direction: row;*/
+        gap: 0.5rem;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+      }
+      .image {
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .info {
+        /*display: flex;
+        flex-direction: column;*/
+        gap: 5px;
+        font-size: 10px;
+        margin-left: 10px;
+        padding-top: 8px;
+      }
+      #cards {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: fit-content;
+      }
+      #botaoAgendar {
+        padding: 9px 30px;
+        background: #037EF3;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      #formaTopo, #formaFooter {
+        margin: 0 auto;
+        width: fit-content;
+      }
+      #footer {
+        margin: 0 auto;
+        width: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="formaTopo">
+        <img
+          src="https://i.ibb.co/TBb5ZB9/Application-Frame-Host-m-Dr-Sp-CH6x-D.png"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div id="corpo">
+        <p style="font-size: 1.3rem">Olá jovem líder,</p>
+        <p style="font-size: 1.3rem">
+          Perdeu o email anterior? Não deixe pra agendar depois a sua
+          entrevista.
+        </p>
+        <p style="font-size: 1.3rem">
+          Está aberto o segundo chamada para o agendamento das entrevistas do
+          nosso processo seletivo. A entrevista será uma oportunidade para
+          conhecermos você melhor, suas habilidades, experiências e expectativas
+          em relação a AIESEC.
+        </p>
+        <p style="font-size: 1.3rem">
+          Para agendar sua entrevista, acessando nosso sistema de <br />
+          agendamento de entrevistas no link a seguir
+        </p>
+        <a
+          href="https://calendar.app.google/qi4bSJnAiU31JFM36"
+          id="botaoAgendar"
+          >AGENDAR</a
+        >
+        <br /><br />
+        <hr />
+        <p style="font-size: 1.3rem">
+          <span>Se atente</span> às seguintes informações, para que a sua seja
+          agendada corretamente:
+        </p>
+        <p style="font-size: 1.3rem">
+          • Verifique seus dados pessoais e certifique-se de que estão corretos.
+        </p>
+        <p style="font-size: 1.3rem">
+          • Caso não consiga comparecer à entrevista no horário agendado, entre
+          em contato conosco com antecedência para que possamos reagendar.
+        </p>
+        <p style="font-size: 1.3rem">
+          • O link de acesso ficará disponível no Google Calender do email que
+          você registar o agendamento.
+        </p>
+        <hr />
+        <p style="font-size: 1.3rem">
+          <span>Lembrem-se</span> que a entrevista é uma etapa crucial para
+          avaliarmos o perfil candidatos, mas não fique nervoso (a).
+        </p>
+        <p style="font-size: 1.3rem">
+          Preparamos algumas dicas para que a sua entrevista seja um completo
+          sucesso:
+
+          <br />
+          • Escolha um ambiente confortável e silencioso para a entrevista;
+          <br /><br />
+          • A entrevista é realizada pelo Google Meeting e tem duração estimada
+          de 45 minutos; <br /><br />
+          • Tenha sempre água por perto; <br /><br />
+          • Procure responder as perguntas com clareza e objetividade;
+          <br /><br />
+          • A entrevista é uma conversa, queremos saber quem você é e o que te
+          motiva; <br />
+        </p>
+        <br />
+        <hr />
+        <p style="font-size: 1.3rem">
+          Agradecemos novamente pelo seu interesse e disponibilidade em
+          participar do processo seletivo da <span>AIESEC</span>. Caso tenha
+          alguma dúvida ou necessite de qualquer assistência, não hesite em
+          entrar em contato conosco.
+        </p>
+        <p style="font-size: 1.3rem">
+          Desejamos a você sucesso na entrevista e aguardamos ansiosamente para
+          conhecê-lo(a).
+        </p>
+      </div>
+      <div id="cards">
+        <div class="card">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/xLysCSk/OUTLOOK-7-Bbb9q-WZR6.png"
+              alt=""
+              width="50px"
+              height="50px"
+            />
+          </div>
+          <div class="info">
+            <span>Bea Monteiro</span> <br />
+            <span>Diretora de Gestão de Pessoas</span> <br />
+            <a href="https://wa.me/5511971294805">+55 11 97129-4805</a> <br />
+            <a href="beatriz.monteiro@aiesec.org.br"
+              >beatriz.monteiro@aiesec.org.br</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/q7PqtGP/OUTLOOK-y-Hg461k-X1-A.png"
+              alt=""
+              width="50px"
+              height="50px"
+            />
+          </div>
+          <div class="info">
+            <span>Karine Hilário</span> <br />
+            <span>Diretora de Gestão de Pessoas</span> <br />
+            <a href="https://wa.me/5511996473706">+55 11 99647-3706</a> <br />
+            <a href="karine.hilario@aiesec.org.br"
+              >karine.hilario@aiesec.org.br</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- <div id="footer">
+        <img
+          src="https://i.ibb.co/PGWXL0M/brave-MPvro-UWP5r.png"
+          alt=""
+          srcset=""
+        />
+      </div> -->
+      <div id="formaFooter">
+        <img
+          src="https://i.ibb.co/cCjpkxs/Application-Frame-Host-Wskw-HNB37m.png"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </main>
+  </body>
+</html>
